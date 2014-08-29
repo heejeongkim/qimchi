@@ -1,0 +1,19 @@
+Demonstration of QMLChilinet
+================================
+This demo is to show how to add client objects and state objects to QML.
+There are three kinds of states in the demo, and you can change each state by clicking a button the interface (F-ctrl / A-ctrl/ S-ctrl).
+
+Following is a short description of each state:
+Classroom state: This state is shared among clients. The state can be either ‘Freeze’ or ‘Normal’.
+Activity state: The change to this state will be logged in a file named ‘activity’. You can find this log file in a directory where an executable file is placed.
+Stage state: This is an example of a local state. The change to this state will be neither shared, nor logged.
+
+How to run the demo
+=====================
+To run a qmlchilinet-demo, you need to install not only Chilitags and OpenCV, but also ZMQ 4.0.4 and CZMQ.
+You also need to write IP address of your server to main.qml file. (In main.qml file, find ChiliClient object and set ‘svrIp’ property.)
+
+Download links
+================
+ZMQ : http://zeromq.org/intro:get-the-software
+CZMQ : http://czmq.zeromq.org/page:get-the-software
