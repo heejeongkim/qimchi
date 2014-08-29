@@ -234,7 +234,7 @@ Window {
     //Client QML object
     ChiliClient{
         id: client
-        svrIp: "128.178.116.93"
+        svrIp: ""
         initPort: "5556"
         updatePort: "5557"
         subPort: "5558"
