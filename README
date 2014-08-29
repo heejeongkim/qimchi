@@ -15,6 +15,8 @@ The global QtCreator project references the following modules:
   i.e. displaying virtual element on a camera feed
 * qmlchilitags-projection: demonstration of how to use qmlchilitags in a
   camera+projector setting
+* qmlchilinet: client module to support communication between machines
+* qmlchilinet-demo: demonstration of how to use qmlchilinet
 
 Documentation
 -------------
